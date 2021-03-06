@@ -201,6 +201,49 @@ nav a{
   color: black;
 
 }
+.testimonials{
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  padding-left: 15%;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+.testimonials h2,.testimonials h3{
+  color: #f15A29;
+}
+#customers img{
+  padding: 1%;
+}
+.combination{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  box-shadow: 1px 1px 5px rgb(172, 172, 173);
+  width: 85%;
+  height: 70%;
+}
+#customers>p{
+  margin-top: -2%;
+}
+#customers{
+  border-right: 2px solid rgba(206, 206, 206, 0.7);
+  padding-right: 4%;
+  position: relative;
+}
+#customers, #aboutmenu{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+#customers, #aboutmenu>p{
+  width: 90%;
+}
+#customers .previous, #customers .next{
+  font-size: 3em;
+  text-decoration: none;
+  color: #f15A29;
+  margin-top: -2px;
+  }
 body{
   width: 98%;
 }
