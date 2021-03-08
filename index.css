@@ -203,6 +203,12 @@ nav a{
     overflow: hide;
     padding: 0%;
   }
+  #textbox>button{
+  font-size: 0.8em;
+  width: 40%;
+  height: 10px;
+  text-align: left;
+  }
 }/*End of responsive styling*/
 #inset nav{
   display: flex;
