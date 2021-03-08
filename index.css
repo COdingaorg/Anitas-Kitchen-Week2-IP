@@ -1,3 +1,6 @@
+body{
+  width: 98%;
+}
 #menutab{
   position: absolute;
   left: 9%;
@@ -10,6 +13,9 @@
   color: white;
   font-family:'Courier New', Courier, monospace;
   text-align: center;
+}
+#menutab>a:visited{
+  color: white;
 }
 #logo>img{
   margin-top: 6%;
@@ -123,7 +129,7 @@ nav a{
   display: flex;
   flex-direction: row;
 }
-button{
+#textbox>button{
   color: #f15A29;
   padding:5%;
   font-size: 1.2em;
@@ -203,17 +209,13 @@ nav a{
 }
 .testimonials{
   width: 100%;
-  height: 350px;
-  text-align: center;
+  height: 380px;
   padding-left: 15%;
   padding-top: 5%;
   box-sizing: border-box;
 }
 .testimonials h2,.testimonials h3{
   color: #f15A29;
-}
-#customers img{
-  padding: 1%;
 }
 .combination{
   display: flex;
@@ -229,11 +231,16 @@ nav a{
 #customers{
   border-right: 2px solid rgba(206, 206, 206, 0.7);
   padding-right: 4%;
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 #customers, #aboutmenu{
   padding-left: 4%;
   padding-right: 4%;
+  text-align: center;
+}
+#aboutmenu{
+  width: 70%;
 }
 #customers, #aboutmenu>p{
   width: 90%;
@@ -242,11 +249,73 @@ nav a{
   font-size: 3em;
   text-decoration: none;
   color: #f15A29;
-  margin-top: -2px;
-  }
-body{
-  width: 98%;
 }
-#aboutmenu{
-  width: 60%;
+#slide{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#slide>img{
+  padding: 1%;
+}
+.newsletter{
+  background-image: url("Anitas-Kitchen-Images/backgrounds/subscribe.jpg");
+  height: 300px;
+  width: 100%;
+  color: white;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.newsletter>p{
+  text-align: center;
+  margin-top: 7%;
+  height:2%;
+}
+#emailline{
+  width:80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#emailline>button{
+  background-color: #f15A29;
+  margin-left: 3%;
+  font-size: 0.6em;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  width: 15%;
+  border-radius: 5px;
+  padding: 0.8%;
+
+}
+#emailline>p{
+ width: 45%;
+ background-color: rgba(255, 255, 255, 0.2);
+ border-radius: 5px;
+ font-weight: lighter;
+ font-size: 0.6em;
+ padding: 1%;
+}
+.footer{
+  background-color: #f15A29;
+  color: white;
+   height: 300px;
+   text-align: center;
+   font-size: 1.5em;
+   padding-top: 5%;
+}
+.footer>span{
+  font-size: 1.8em;
+}
+.footer>p:last-child{
+  margin-top: 6%;
+}
+.footer>a{
+  padding-left: 2%;
 }
