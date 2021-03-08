@@ -90,7 +90,6 @@ nav a{
   justify-content: space-around;
   box-sizing: border-box;
 }
-/*Styling for screens 720px and below*/
 .desc1, .desc2{
   width: 90%;
   display: flex;
@@ -153,6 +152,7 @@ nav a{
   width: 98.5%;
   height: 75%;
 }
+/*Styling for screens 720px and below*/
 @media only screen and (max-width: 720px){
   #inset{
     overflow: scroll;
@@ -203,7 +203,7 @@ nav a{
     overflow: hide;
     padding: 0%;
   }
-}
+}/*End of responsive styling*/
 #inset nav{
   display: flex;
   font-size: 0.3em;
