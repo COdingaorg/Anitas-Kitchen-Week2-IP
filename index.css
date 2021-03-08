@@ -157,6 +157,9 @@ nav a{
   #inset{
     overflow: scroll;
   }
+  .meals{
+    height: 70px;
+  }
   .imagebox{
     width: 90%;
   }
@@ -177,6 +180,28 @@ nav a{
   .desc1, .desc2{
     flex-direction: column;
     border-bottom: 2px solid gray;
+  }
+  .combination{
+    width: 100%;
+    height: 110%;
+    padding: 0%;
+  }
+  #aboutmenu{
+    width: 100%;
+  }
+  .testimonials{
+    margin-bottom: 8%;
+    padding: 0%;
+  }
+  #emailline{
+    margin-top: 8%;
+  }
+  #emailline>button{
+    width: 10%;
+    margin-left: 0%;
+    font-size: 0.4em;
+    overflow: hide;
+    padding: 0%;
   }
 }
 #inset nav{
@@ -237,7 +262,8 @@ nav a{
 .testimonials{
   width: 100%;
   height: 380px;
-  padding-left: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 5%;
   box-sizing: border-box;
 }
@@ -249,8 +275,7 @@ nav a{
   flex-direction: row;
   border: 2px solid white;
   box-shadow: 1px 1px 5px rgb(172, 172, 173);
-  width: 85%;
-  height: 70%;
+  margin-left: -1%;
 }
 #customers>p{
   margin-top: -2%;
@@ -262,12 +287,12 @@ nav a{
   flex-direction: column;
 }
 #customers, #aboutmenu{
-  padding-left: 4%;
-  padding-right: 4%;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: center;
 }
 #aboutmenu{
-  width: 70%;
+  width: 50%;
 }
 #customers, #aboutmenu>p{
   width: 90%;
