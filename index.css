@@ -158,19 +158,31 @@ nav a{
     overflow: scroll;
   }
   .imagebox{
-    width: 100%;
+    width: 90%;
   }
   .imagebox>img{
     width: 100%;
   }
   #textbox{
+    flex:initial;
+    margin: 0%;
+  }
+  .desc2>.imagebox{
+    width: 90%;
+    margin-top: 3%;
+  }
+  .desc2>.imagebox>img{
+    width: 50%;
+  }
+  .desc1, .desc2{
     flex-direction: column;
+    border-bottom: 2px solid gray;
   }
 }
 #inset nav{
   display: flex;
   font-size: 0.3em;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   background-color: rgba(190, 190, 190, 0.5);
 }#inset a{
   border-right  : 1px solid rgba(163, 163, 163, 0.7);
