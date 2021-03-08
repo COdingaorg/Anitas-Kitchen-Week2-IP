@@ -378,3 +378,7 @@ nav a{
 .footer>a{
   padding-left: 2%;
 }
+button:hover{
+  background-color: #f15A29;
+  color: white;
+}
